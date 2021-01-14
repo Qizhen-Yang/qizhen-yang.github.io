@@ -1,8 +1,4 @@
-<center>
-
 [主页]() [博客](./blog)
-
-</center>
 
 ## 我的作品
 ### New Tab
