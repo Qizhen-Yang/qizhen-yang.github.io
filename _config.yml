@@ -1,1 +1,13 @@
 theme: jekyll-theme-cayman
+
+title: Qizhen Yang
+subtitle: Welcome!
+name: Qizhen Yang
+email: alejandro_yang@yeah.net
+encoding: "utf-8"
+
+navs:
+  -
+    href: /
+    label: Home
+    target: _self
