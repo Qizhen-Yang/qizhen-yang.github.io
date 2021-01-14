@@ -1,8 +1,3 @@
-<span style="display: none">
-
-# 主页
-</span>
-
 ## 我的作品
 ### New Tab
 ![New Tab](images/newtab.jpg)
