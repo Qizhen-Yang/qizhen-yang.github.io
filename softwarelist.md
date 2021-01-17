@@ -11,3 +11,12 @@
 - [LibreOffice](https://mirrors.tuna.tsinghua.edu.cn/libreoffice/libreoffice/stable/) 镜像
 - [MindMaster](https://www.edrawsoft.cn/mindmaster/)
 - [Motrix](https://hub.fastgit.org/agalwood/Motrix/releases/latest) 镜像
+- [Microsoft Office](http://www.dnbbn.com/45.html) 第三方提供的原版
+- [Visual Studio](https://visualstudio.microsoft.com/zh-hans/downloads/)
+- [Visual Studio Code](https://code.visualstudio.com/Download)
+- [VMWare Workstation Pro](https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html)
+- [Windows Terminal](https://www.microsoft.com/store/productId/9N0DX20HK701)
+- [WinRAR](http://www.winrar.com.cn/)
+- [网易有道词典](http://cidian.youdao.com/)
+- [网易邮箱大师](http://mail.163.com/dashi/)
+- [微信](https://pc.weixin.qq.com/)
