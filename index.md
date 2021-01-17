@@ -1,6 +1,6 @@
 <h1 style="display: none">主页</h1>
 
-**[主页](.) [博客列表](posts)**
+**[主页](.) [博客列表](posts) [我常用的软件列表](softwarelist.html)**
 
 # 我的博客
 ## [Windows 下使用 GNU Compiler Collection](posts/2021-01-17.html)
