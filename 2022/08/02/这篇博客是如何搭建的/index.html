@@ -9,7 +9,7 @@
     
     <title>
         
-            Hello World |
+            这篇博客是如何搭建的 |
         
         Qizhen Yang
     </title>
@@ -131,7 +131,7 @@
     <div class="article-content-container">
 
         <div class="article-title">
-            <span class="title-hover-animation">Hello World</span>
+            <span class="title-hover-animation">这篇博客是如何搭建的</span>
         </div>
 
         
@@ -150,10 +150,21 @@
                         <div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fas fa-edit"></i>&nbsp;
-        <span class="pc">2022-08-01 20:48:04</span>
-        <span class="mobile">2022-08-01 20:48</span>
+        <span class="pc">2022-08-02 17:04:54</span>
+        <span class="mobile">2022-08-02 17:04</span>
     </span>
     
+    
+        <span class="article-tags article-meta-item">
+            <i class="fas fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/hexo/">hexo</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
     
 
     
@@ -172,24 +183,36 @@
         
 
         <div class="article-content markdown-body">
-            <p>Welcome to <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html" >Writing<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/docs/server.html" >Server<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html" >Generating<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>
+            <p>为了省事，同时也能更方便的编写、管理网页，我还是重新用起了 <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/" >hexo<i class="fas fa-external-link-alt"></i></a>。</p>
+<h2 id="安装，初始化"><a href="#安装，初始化" class="headerlink" title="安装，初始化"></a>安装，初始化</h2><p>首先安装 <a class="link"   target="_blank" rel="noopener" href="https://nodejs.org/" >node.js<i class="fas fa-external-link-alt"></i></a>。然后使用 npm 安装 hexo。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<p>然后在对应文件夹里初始化 hexo。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+<p>就会有这样的目录：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml</span><br><span class="line">├── package.json</span><br><span class="line">├── scaffolds</span><br><span class="line">├── source</span><br><span class="line">|   ├── _drafts</span><br><span class="line">|   └── _posts</span><br><span class="line">└── themes</span><br></pre></td></tr></table></figure>
+<p>就好了。</p>
+<h2 id="修改主题，调整主题"><a href="#修改主题，调整主题" class="headerlink" title="修改主题，调整主题"></a>修改主题，调整主题</h2><p>网上有非常多的 hexo 博客主题，我挑了 <a class="link"   target="_blank" rel="noopener" href="https://github.com/XPoet/hexo-theme-keep" >keep<i class="fas fa-external-link-alt"></i></a>。<br>使用起来非常简单，把整个主题包下载下来解压放到 <code>/themes</code> 文件夹里，然后在 <code>_config.yml</code> 中将 <code>theme</code> 设置为主题包的文件夹名就可以了。</p>
+<p>主题有很多默认的用不到或没使用的功能，很多都能在主题包下的 <code>_config.yml</code> 里修改，比如页首的菜单等。<br>剩余的一些需要手动修改主题文件，比如 <code>source</code> 文件夹内的样式表，<code>layout</code> 文件夹内的 ejs 模板，<code>languages</code> 文件夹内的语言包等，还是非常方便的。</p>
+<h2 id="写文章，生成页面，预览"><a href="#写文章，生成页面，预览" class="headerlink" title="写文章，生成页面，预览"></a>写文章，生成页面，预览</h2><p>用 hexo 写文章非常方便，直接在命令行里输入 <code>hexo new &quot;文章标题&quot;</code>，就会自动在 <code>/sources/_posts</code> 下生成带标题和时间信息的 markdown 文件。</p>
+<p>添加页面要使用命令 <code>hexo new page &quot;页面标题&quot;</code>，会自动在 <code>/sources</code> 下生成 <code>页面标题</code> 文件夹以及文件夹内的 <code>index.md</code>。<br>使用 <code>hexo new page 404</code> 生成页面，并在 markdown 文件开头加上 <code>permalink: /404.html</code> 就可以生成 404 页面来替换掉默认的了。</p>
+<p>命令 <code>hexo g</code> 可以在 <code>/public</code> 文件夹下生成对应的 html 文件等，<code>hexo clean</code> 可以清理掉这些文件。<br><code>hexo s</code> 会在本地搭建服务端来更好的模拟发布后的效果。</p>
+<h2 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h2><p>经过测试，hexo 官网所说的 hexo deployer git 似乎并没有正常运行，没法实现只将 <code>/public</code> 下的文件上传至 GitHub。</p>
+<p>但是还有一种解决方法，那就是直接在 <code>/public</code> 下建立一个 git 仓库，然后将这个仓库发布到 GitHub，除了没法使用 <code>hexo clean</code> 之外没有特别大的区别，写一个两行的命令行脚本也可以实现在生成完之后自动 push 到 GitHub。</p>
+<p>最后为了国内访问速度更快一点，将 GitHub 仓库再部署到 vercel 就可以了</p>
+<p>如果直接用 vercel 提供的 hexo 会更方便一点，不需要这么多本地的命令行操作，只要在 GitHub 上往 <code>/source</code> 下放 markdown 文件就可以创建页面了，也不用手动生成，唯一的缺点就是每次 markdown 的头上那几行没法自动生成。</p>
 
         </div>
 
         
 
+        
+            <ul class="post-tags-box">
+                
+                    <li class="tag-item">
+                        <a href="/tags/hexo/">#hexo</a>&nbsp;
+                    </li>
+                
+            </ul>
         
 
         
